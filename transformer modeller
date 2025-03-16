@@ -1,0 +1,22 @@
+Sosyal medyada saldırganlık ve nefret söylemi tespiti, çevrimiçi toplulukların güvenliği için önemli bir konudur.
+ Bu alanda, Transformer tabanlı modellerin etkinliği üzerine çeşitli çalışmalar yapılmıştır. 
+ Bu yazıda, "Transformatör-Tabanlı Evrişimli Sinir Ağı Modeli Kullanarak Twitter Verisinde Saldırganlık Tespiti" başlıklı makale ile 
+"BERT-Base Modeli ile Türkçe Sosyal Medya Paylaşımlarında Nefret Söylemi Tespiti" başlıklı makaleyi karşılaştıracağız.
+Transformatör-Tabanlı Evrişimli Sinir Ağı Modeli Kullanarak Twitter Verisinde Saldırganlık Tespiti başlıklı makalede
+LMTweets adlı bir kodlayıcı, 20.001 tweet üzerinde eğitilmiş ve çıkarılan özellikler, metni saldırgan veya saldırgan olmayan olarak
+ sınıflandırmak üzere Evrişimli Sinir Ağı (CNN) modeline girdi olarak verilmiştir. Ayrıca, Naïve Bayes, Destek Vektör Makinesi, K-En Yakın Komşu
+gibi üç sınıflandırma algoritması uygulanmıştır. Bunun yanında, Evrişimli Sinir Ağı, Uzun Kısa Süreli Bellek ve
+Kapılı Tekrarlayan Birim üç öğrenme algoritması ile birlikte BERT, XLNet ve ULMFiT olmak üzere üç Transformer modeli uygulanmıştır.
+Deneysel sonuçlarda,LMTweets + CNN modelinin kullanılan tüm modeller arasında daha iyi performans gösterdiği ortaya konmuştur.
+BERT-Base Modeli ile Türkçe Sosyal Medya Paylaşımlarında Nefret Söylemi Tespiti adlı çalışmada ise BERT-Base modeli kullanılarak
+ Türkiyedeki Twitter kullanıcılarının yorumlarında nefret söylemi tespiti gerçekleştirilmiştir.
+Zararlı ve zararsız olarak etiketlenen örneklerden oluşan bir veri setiyle eğitilerek %92,53 test doğruluk başarımı elde edilmiştir.
+ Geliştirilen model, canlı ortamda kullanıcıların hizmetine sunulmuştur. 
+
+ VERİ SETLERİ VE ETİKETLEME
+ Her iki çalışmada da Twitter verileri kullanılmıştır. İlk çalışmada, Cyber-Trolls adlı veri seti kullanılmıştır.
+İkinci çalışmada ise, zararlı ve zararsız olarak etiketlenen bir veri seti kullanılmıştır.
+
+PERFORMANS
+İlk çalışmada, LMTweets + CNN modeli, kullanılan tüm modeller arasında daha iyi performans göstermiştir. 
+ İkinci çalışmada ise, BERT-Base modeli %92,53 test doğruluk başarımı elde etmiştir.
